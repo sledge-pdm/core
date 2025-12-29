@@ -1,6 +1,6 @@
 {
   "name": "@sledge-pdm/misc",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "private": false,
   "type": "module",
   "sideEffects": true,
@@ -11,5 +11,9 @@
   "scripts": {
     "dev": "",
     "build": ""
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://npm.pkg.github.com/"
   }
 }
