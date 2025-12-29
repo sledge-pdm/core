@@ -8,9 +8,15 @@
     ".": "./index.ts"
   },
   "dependencies": {},
+  "devDependencies": {
+    "prettier": "^3.7.4",
+    "prettier-plugin-organize-imports": "^4.3.0"
+  },
   "scripts": {
     "dev": "",
-    "build": ""
+    "build": "",
+    "prettier": "prettier --write . --config .prettierrc",
+    "format": "pnpm prettier"
   },
   "publishConfig": {
     "access": "public",
